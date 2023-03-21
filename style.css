@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#itemTableAndCart{
+    display: flex;
+    column-gap: 10px;
+}
+table{
+    width: 70%;
+}
+table, th, td{
+    border: 1px solid;
+}
+
+.buyButton, .amountChangeBtn, #cart{
+    cursor: pointer;
+}
+.amountChangeBtn{
+    padding: 5px;
+}
+.itemImage{
+    width:100px;
+    height: 100px;
+}
+td{
+    /* display: flex; */
+    top: 50%;
+    left: 50%;
+}
+.itemImageAndName{
+    display: flex;
+    flex-direction: column;
+}
